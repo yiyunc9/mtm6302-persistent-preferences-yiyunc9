@@ -1,0 +1,53 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  /* Themes */
+  body.light {
+    --primary-color: #f9f9f9;
+    --text-color: #333;
+  }
+  
+  body.dark {
+    --primary-color: #333;
+    --text-color: #f9f9f9;
+  }
+  
+  body.pink {
+    --primary-color: #f9d6dc;
+    --text-color: #333;
+  }
+  
+  /* Apply theme colors */
+  header {
+    background-color: var(--primary-color, #eee);
+    color: var(--text-color, #000);
+  }
+  
+  main {
+    background-color: var(--primary-color, #f9f9f9);
+    color: var(--text-color, #333);
+  }
+  
+  /* List Styles */
+  ul {
+    margin: 1rem 0;
+    padding-left: 20px;
+  }
+  
+  ul.none {
+    list-style: none;
+  }
+  
+  ul.disc {
+    list-style-type: disc;
+  }
+  
+  ul.square {
+    list-style-type: square;
+  }
+  
